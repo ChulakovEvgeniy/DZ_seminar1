@@ -12,8 +12,9 @@ Console.WriteLine("Введите второе число");
 string per2 = Console.ReadLine();
 int num2 = Convert.ToInt32(per2);
 
-if (num1 > num2) Console.WriteLine($"Максимальное первое число = {num1}");
+if (num1 > num2) Console.WriteLine($"(Первое число = {num1}) > (второе число = {num2})");
+
 else
 {
-    Console.WriteLine($"Максимальное второе число = {num2}");
+    Console.WriteLine($"(Второе число = {num2}) > (первое число = {num1})");
 }
